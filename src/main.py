@@ -15,7 +15,7 @@ async def detect(image_file):
 clicked = False
 
 async def main():
-    st.set_page_config(page_title="Object Detecition API", page_icon="🤖")
+    st.set_page_config(page_title="Object Detecition API", page_icon="🤖", layout="wide")
     logo =Image.open("logo_stk.png")
     st.image(logo)
     st.title("Object Detecition API")
